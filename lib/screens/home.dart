@@ -69,6 +69,7 @@ class _HomeState extends State<Home> {
                           onToDoChanged: _handleToDochange,
                           onDeleteItem: _deleteToDoItem,
                         ),
+                      const SizedBox(height: 65,)
                     ]),
                   )
                 ],
